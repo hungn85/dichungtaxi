@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Đi Chung Taxi</string>
+    <string name="company">Công ty cổ phần Đi Chung</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_color">#1B7EBA</string>
+    <string name="drawer_opened">Drawer Opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="top_bar_color">#1B7EBA</string>
+    <string name="gg_map_key">AIzaSyAAUqGKN8eVVQaw0NP2sYyTLfkCpiJOCak</string>
+    <string name="internet_success">Kết nối mạng thành công</string>
+    <string name="internet_error">Kết nối mạng bị gián đoạn. Bạn vui lòng bật 3G hoặc kết nối lại Wifi</string>
+    <string name="search_hint">Search Places</string>
+    <string name="search_settings">Search Places</string>
+    <string name="select_chunk">Chọn Tuyến</string>
+    <string name="select_city">Chọn Tỉnh/Thành Phố</string>
+    <string name="select_airport">Chọn Sân Bay</string>
+    <string name="airport">Sân Bay</string>
+</resources>

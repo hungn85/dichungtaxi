@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/left_nav_background"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/nav_icon_home"
+            android:src="@drawable/ic_action_home"  />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/nav_icon_home"
+            >
+            <TextView
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE"
+                android:id="@+id/nav_info_title" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Sub title"-->
+                <!--android:id="@+id/nav_info_subtitle" />-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
